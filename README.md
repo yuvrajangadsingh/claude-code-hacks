@@ -1,30 +1,27 @@
-# claude-code-hacks
+# claude-login-share
 
-Useful scripts and tricks for Claude Code CLI.
+Share your Claude Code login to another Mac. No browser needed.
 
-## share-login.sh
-
-Share your Claude Code login to another Mac without opening a browser.
-
-### Quick start
-
-Paste this in Terminal on the Mac that's logged in:
+## Usage
 
 ```bash
-curl -sL https://raw.githubusercontent.com/yuvrajangadsingh/claude-code-hacks/main/share-login.sh | bash
+npx claude-login-share
 ```
 
-That's it. A command gets copied to your clipboard. Send it to whoever needs it. They paste it in their Terminal.
+That's it. A command gets copied to your clipboard. Send it to whoever needs to login. They paste it in their Terminal.
 
-### What it does
+## How it works
 
-- Extracts OAuth credentials from macOS Keychain
-- Strips out MCP tokens and local data (only shares auth)
-- Copies a transfer command to your clipboard
-- The transfer command auto-detects the target machine's username
-- No settings, sessions, projects, or CLAUDE.md files are touched on either machine
+1. Run `npx claude-login-share` on the Mac that's logged in
+2. It extracts your Claude Code credentials from Keychain
+3. Strips out MCP tokens and local data (only shares auth)
+4. Copies a transfer command to your clipboard
+5. Send that command to whoever needs it
+6. They paste it in Terminal, Claude Code starts
 
-### Requirements
+The transfer command auto-detects the target machine's username. No settings, sessions, projects, or CLAUDE.md files are touched on either machine.
+
+## Requirements
 
 - macOS on both machines
 - Claude Code installed on both machines
