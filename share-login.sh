@@ -2,7 +2,7 @@
 # Share your Claude Code login to another Mac. No browser needed.
 #
 # Usage (paste in Terminal):
-#   curl -sL https://raw.githubusercontent.com/yuvrajangadsingh/claude-code-hacks/main/share-login.sh | bash
+#   curl -sL https://raw.githubusercontent.com/yuvrajangadsingh/claude-login-share/main/share-login.sh | bash
 #
 # What happens:
 #   1. Extracts your Claude Code credentials from Keychain

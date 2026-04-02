@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yuvrajangadsingh/claude-code-hacks"
+    "url": "https://github.com/yuvrajangadsingh/claude-login-share"
   },
   "engines": {
     "node": ">=14"
