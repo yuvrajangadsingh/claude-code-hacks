@@ -1,6 +1,6 @@
 {
   "name": "claude-login-share",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Share your Claude Code login to another Mac. No browser needed.",
   "bin": {
     "claude-login-share": "bin/index.js"
@@ -8,9 +8,10 @@
   "keywords": ["claude", "claude-code", "auth", "login", "share", "macos"],
   "author": "Yuvraj Angad Singh",
   "license": "MIT",
+  "homepage": "https://github.com/yuvrajangadsingh/claude-login-share#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yuvrajangadsingh/claude-login-share"
+    "url": "git+https://github.com/yuvrajangadsingh/claude-login-share.git"
   },
   "engines": {
     "node": ">=14"
